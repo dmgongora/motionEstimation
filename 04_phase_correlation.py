@@ -23,7 +23,7 @@ def getROI(frame, size, xy, show = False):
     return roi
 
 if __name__ == '__main__':
-    filename = "./../terrainVibrations/{}".format(sys.argv[1])
+    filename = "{}".format(sys.argv[1])
     print("Loading "+filename)
     cap = cv2.VideoCapture(filename)
 
